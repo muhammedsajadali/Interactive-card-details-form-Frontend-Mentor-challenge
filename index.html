@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Interactive card details form | Frontend Mentor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main role="main">
+
+    <div class="card-container">
+      <div class="for-cards-align">
+        <img src="./images/bg-card-back.png" alt="Card Back" id="card-back">
+        <p id="cvc">000</p>
+        <img src="./images/bg-card-front.png" alt="Card Front" id="card-front">
+        <img src="./images/card-logo.svg" alt="Card Logo" id="card-logo">
+        <p id="card-number">0000 0000 0000 0000</p>
+        <div class="name-expiry-container">
+          <p id="cardholder-name">JANE APPLESEED</p>
+          <p id="expiry-date">00/00</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-container">
+      <form action="">
+
+        <label>CARDHOLDER NAME</label>
+        <input type="text" placeholder="e.g. Jane Appleseed">
+  
+        <label>CARD NUMBER</label>
+        <input type="text" placeholder="e.g. 0000 0000 0000  0000">
+  
+        <div class="expiry-cvc-container">
+           <div class="expiry-date-container">
+            <label>EXP. DATE (MM/YY)</label>
+            <div class="mm-yy-input-container">
+              <input type="text" placeholder="MM">
+              <input type="text" placeholder="YY">
+            </div>
+          </div>
+  
+          <div class="cvc-container">
+            <label>CVC</label>
+            <input type="text" placeholder="e.g. 123">
+          </div>
+        </div>
+  
+        <button>Confirm</button>
+  
+      </form>
+    </div>
+
+  </main>
+</body>
+</html>
