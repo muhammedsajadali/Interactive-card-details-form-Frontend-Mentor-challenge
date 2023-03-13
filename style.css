@@ -116,7 +116,8 @@ form input{
     border-radius: 5px;
 }
 form input:focus{
-    border-color:red !important; 
+    outline:none;
+    border:1px solid red; 
 }
 form .expiry-cvc-container{
     display: flex;
